@@ -1,0 +1,28 @@
+{
+  "name": "claud_webook",
+  "version": "2.0.0",
+  "description": "Automated ticket booking bot for Webook.com",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "login": "node src/login.js",
+    "test": "node src/test.js"
+  },
+  "keywords": [
+    "webook",
+    "ticket",
+    "bot",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^17.2.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "puppeteer": "^24.31.0",
+    "puppeteer-cluster": "^0.25.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
